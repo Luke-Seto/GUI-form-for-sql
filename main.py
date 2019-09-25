@@ -7,7 +7,7 @@ def callback():
     s=e1.get()
     q=e2.get()
     #connect to sql database
-    conn = pyodbc.connect("DataBase Connection'))
+    conn = pyodbc.connect("DataBase Connection')
     cursor = conn.cursor()
     #Sql insert query
     cursor.execute("""insert into Database
